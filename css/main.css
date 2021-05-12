@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
+    font-family: 'Bitter', serif;
+}
+
+#navbar {
+    z-index: 1;
+}
+
+#separador {
+    background-color: rgb(26, 164, 219);
+    z-index: 10;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(21, 60, 131, 0.5) 25px, rgba(28, 21, 131, 0.5) 40px);
+}
+
+#etiqueta {
+    background-color: rgb(26, 174, 219);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#etiqueta img {
+    position: relative;
+    margin-top: -30px;
+}
+
+#guias {
+    background: rgb(255, 255, 255);
+    background: url(../img/bg-02.png), linear-gradient(0deg, rgb(58, 192, 216) 0%, rgb(82, 54, 78) 57%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20px;
+}
+
+.card-border {
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+.text-shadow {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+#ranking {
+    background: url(../img/bg-04.png);
+    background-color: rgb(255, 255, 219);
+    background-size: 40px 40px;
+}
+
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+}
+
+#tope {
+    color: black;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.card-text {
+    color: rgb(0, 0, 0);
+}
